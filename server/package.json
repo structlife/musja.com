@@ -1,0 +1,11 @@
+{
+  "name": "structlife.com",
+  "version": "0.0.1",
+  "description": "structLife",
+  "scripts": {},
+  "author": "",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}

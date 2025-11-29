@@ -1,0 +1,1 @@
+const express=require("express"),path=require("path"),app=express();app.use(express.static(path.join(__dirname,".."))),app.get("*",(e,p)=>{p.sendFile(path.join(__dirname,"..","index.html"))});const PORT=3e3;app.listen(3e3,()=>{console.log("Server running at http://localhost:3000")});
